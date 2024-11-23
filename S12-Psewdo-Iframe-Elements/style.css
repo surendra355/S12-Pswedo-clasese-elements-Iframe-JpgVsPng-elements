@@ -1,0 +1,48 @@
+h1::first-letter{color: red;
+font-size: 4rem;
+}
+p::first-line{
+    color: rgb(223, 15, 153);
+}
+p::first-letter{color: blue;
+font-size: 2rem;
+}
+ul li::marker{
+    content:"👪"
+}
+p::selection{
+    background-color:red ;
+    color: chartreuse;
+}
+h1::after{content:"🔊"}
+h1::before{
+    content:"👉"
+}
+a{
+    font-size: 2rem;
+}
+a:hover{
+    background-color:green;
+}
+a:link{
+    color: red;
+}
+a:visited{
+    color: gray;
+}
+img{width: 300px;
+}
+
+img:hover{
+/* box-shadow: 10px 10px 10px; */
+filter: drop-shadow(10px 10px 10px black);
+
+
+}
+body{
+    background-color: darkolivegreen;
+}
+iframe{
+    width: 500px;
+    height: 300px;
+}
